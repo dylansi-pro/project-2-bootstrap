@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koko Café | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="site-container">
+      <nav class="navbar navbar-expand-lg py-0 main-header fixed-top">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/koko_cafe_logo.png"
+              alt="Koko Café Logo"
+              class="logo-img"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto gap-4">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="aboutDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >About us</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="about.html">Overview</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="about.html#staff"
+                      >Our Staff</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active-koko"
+                  href="#"
+                  id="menuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Our Menu</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="menu.html">View All</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="menu.html#coffee"
+                      >Specialty Coffee</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="menu.html#pastries"
+                      >Pastries</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="menu.html#brunch">Brunch</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container py-5 mt-5">
+        <section class="row align-items-center mb-5 py-5 px-4 bg-koko-intro">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h1 class="h1-koko display-5 fw-bold mb-3">
+              Carefully Sourced, <br />Perfectly Brewed.
+            </h1>
+            <p class="mb-4 text-muted" style="max-width: 450px">
+              Welcome to Koko Café. We serve premium specialty coffee roasted
+              in-house, paired with artisanal pastries in a warm, minimalist
+              atmosphere.
+            </p>
+            <a
+              href="menu.html"
+              class="btn btn-koko text-white fw-bold px-4 py-2 rounded-1"
+            >
+              Discover Our Menu
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              src="images/coffee.jpg"
+              alt="Koko Café cozy atmosphere"
+              class="img-fluid rounded shadow-lg"
+              style="max-width: 90%"
+            />
+          </div>
+        </section>
+
+        <section class="row row-cols-1 row-cols-md-3 g-4 pt-5 mx-0">
+          <div class="col">
+            <div class="card h-100 border bg-white rounded-3 py-4 text-center">
+              <div
+                class="mx-auto overflow-hidden rounded-circle border border-2 border-light mb-3"
+                style="width: 150px; height: 150px"
+              >
+                <img
+                  src="images/banner_grain.jpg"
+                  alt="Coffee beans icon"
+                  class="w-100 h-100"
+                  style="object-fit: cover"
+                />
+              </div>
+              <div class="card-body px-3">
+                <h3 class="h5 fw-bold">Organic Beans</h3>
+                <p class="text-muted small mb-0">
+                  100% Arabica beans sourced directly from sustainable
+                  fair-trade farways around the world.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 border bg-white rounded-3 py-4 text-center">
+              <div
+                class="mx-auto overflow-hidden rounded-circle border border-2 border-light mb-3"
+                style="width: 150px; height: 150px"
+              >
+                <img
+                  src="images/study.jpg"
+                  alt="Cozy workspace icon"
+                  class="w-100 h-100"
+                  style="object-fit: cover"
+                />
+              </div>
+              <div class="card-body px-3">
+                <h3 class="h5 fw-bold">Cozy Space</h3>
+                <p class="text-muted small mb-0">
+                  The perfect spot to focus on your code, read a book, or enjoy
+                  a quiet morning routine.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 border bg-white rounded-3 py-4 text-center">
+              <div
+                class="mx-auto overflow-hidden rounded-circle border border-2 border-light mb-3"
+                style="width: 150px; height: 150px"
+              >
+                <img
+                  src="images/pastries.jpg"
+                  alt="Fresh pastries icon"
+                  class="w-100 h-100"
+                  style="object-fit: cover"
+                />
+              </div>
+              <div class="card-body px-3">
+                <h3 class="h5 fw-bold">Daily Pastries</h3>
+                <p class="text-muted small mb-0">
+                  Baked from scratch every single morning by our local
+                  passionate pastry chefs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="main-footer-custom">
+        <p class="mb-0">&copy; 2026 Koko Café.</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koko Café | About us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="site-container">
+      <nav class="navbar navbar-expand-lg py-0 main-header fixed-top">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/koko_cafe_logo.png"
+              alt="Koko Café Logo"
+              class="logo-img"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto gap-4">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active-koko"
+                  href="#"
+                  id="aboutDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >About us</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="about.html">Overview</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="about.html#staff"
+                      >Our Staff</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="menuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Our Menu</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="menu.html">View All</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="menu.html#coffee"
+                      >Specialty Coffee</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="menu.html#pastries"
+                      >Pastries</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="menu.html#brunch">Brunch</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container py-5 mt-5">
+        <section class="mb-5 py-5 px-4 bg-koko-intro">
+          <div class="w-100 mb-4">
+            <h1 class="display-5 fw-bold mb-4">About Koko Café</h1>
+
+            <h2 class="h4 fw-bold mb-2" style="color: #6e6254">Who We Are</h2>
+            <p class="text-muted mb-4">
+              Welcome to Koko Café! Founded with a passion for exceptional
+              coffee, we are a cozy neighborhood spot dedicated to bringing
+              people together over the perfect brew. Our space is designed to be
+              your second home, whether you're catching up with friends or
+              finding a quiet corner to work.
+            </p>
+
+            <h2 class="h4 fw-bold mb-2" style="color: #6e6254">Our Mission</h2>
+            <p class="text-muted mb-5">
+              Our goal is simple: to serve sustainably sourced, specialty coffee
+              alongside fresh, artisanal pastries. We believe that every cup
+              tells a story, and we work closely with local roasters to ensure
+              that every sip you take supports ethical and quality-driven
+              farming.
+            </p>
+          </div>
+
+          <div class="text-center w-100">
+            <img
+              src="images/cafe-interior.jpg"
+              alt="Inside Koko Café"
+              class="img-fluid rounded-3 shadow-lg"
+              style="max-height: 450px; width: 100%; object-fit: cover"
+            />
+          </div>
+        </section>
+
+        <hr class="my-5 opacity-25" style="color: #ebdcd0" />
+
+        <section id="staff" class="py-4">
+          <div class="text-center mb-5">
+            <h2 class="display-6 fw-bold">Meet Our Team</h2>
+            <p class="text-muted fs-5 fst-italic">
+              The passionate people behind your daily brew.
+            </p>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4 mx-0">
+            <div class="col">
+              <div
+                class="card h-100 border-0 bg-light rounded-3 p-4 text-center shadow-sm"
+              >
+                <div
+                  class="mx-auto overflow-hidden rounded-circle mb-3"
+                  style="width: 140px; height: 140px; border: 3px solid #6e6254"
+                >
+                  <img
+                    src="images/bear.jpg"
+                    alt="Bear - Founder & Head Barista"
+                    class="w-100 h-100"
+                    style="object-fit: cover"
+                  />
+                </div>
+                <div class="card-body p-0">
+                  <h3 class="h4 fw-bold mb-1">Bear</h3>
+                  <p
+                    class="fw-bold small mb-3 text-uppercase"
+                    style="color: #6e6254; letter-spacing: 1px"
+                  >
+                    Founder & Head Barista
+                  </p>
+                  <p class="text-muted small mb-0">
+                    Bear started Koko Café to share their love for latte art and
+                    single-origin beans. Always ready for a coffee chat!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border-0 bg-light rounded-3 p-4 text-center shadow-sm"
+              >
+                <div
+                  class="mx-auto overflow-hidden rounded-circle mb-3"
+                  style="width: 140px; height: 140px; border: 3px solid #6e6254"
+                >
+                  <img
+                    src="images/cat.jpg"
+                    alt="Cat - Pastry Chef"
+                    class="w-100 h-100"
+                    style="object-fit: cover; object-position: center top"
+                  />
+                </div>
+                <div class="card-body p-0">
+                  <h3 class="h4 fw-bold mb-1">Cat</h3>
+                  <p
+                    class="fw-bold small mb-3 text-uppercase"
+                    style="color: #6e6254; letter-spacing: 1px"
+                  >
+                    Pastry Chef
+                  </p>
+                  <p class="text-muted small mb-0">
+                    Cat bakes our famous pastries fresh every single morning.
+                    Her secret ingredient? A touch of love and lots of butter.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border-0 bg-light rounded-3 p-4 text-center shadow-sm"
+              >
+                <div
+                  class="mx-auto overflow-hidden rounded-circle mb-3"
+                  style="width: 140px; height: 140px; border: 3px solid #6e6254"
+                >
+                  <img
+                    src="images/owl.jpg"
+                    alt="Owl - Barista"
+                    class="w-100 h-100"
+                    style="object-fit: cover"
+                  />
+                </div>
+                <div class="card-body p-0">
+                  <h3 class="h4 fw-bold mb-1">Owl</h3>
+                  <p
+                    class="fw-bold small mb-3 text-uppercase"
+                    style="color: #6e6254; letter-spacing: 1px"
+                  >
+                    Barista
+                  </p>
+                  <p class="text-muted small mb-0">
+                    Owl is our espresso expert and playlist curator. He knows
+                    exactly how to brighten your morning with a smile.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="main-footer-custom">
+        <p class="mb-0">&copy; 2026 Koko Café.</p>
+      </footer>
+    </div>
+  </body>
+</html>
