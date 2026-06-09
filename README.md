@@ -1,4 +1,4 @@
-# Koko Café - Brand Website
+# Koko Café - Brand Website with Bootstrap
 
 Ce projet consiste en la création d'un site vitrine complet pour **Koko Café**, un café de spécialité proposant des pâtisseries artisanales et des brunchs dans une ambiance chaleureuse.
 
